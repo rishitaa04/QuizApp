@@ -1,0 +1,137 @@
+ {
+    "question": "What does JS stand for?",
+    "choice1": "Java Syntax",
+    "choice2": "JavaScript",
+    "choice3": "Just Script",
+    "choice4": "Jumbo Style",
+    "answer": 2
+  },
+  {
+    "question": "Which HTML tag is used to link JavaScript?",
+    "choice1": "<javascript>",
+    "choice2": "<script>",
+    "choice3": "<js>",
+    "choice4": "<code>",
+    "answer": 2
+  },
+  {
+    "question": "Which of these is a JavaScript data type?",
+    "choice1": "Float",
+    "choice2": "Integer",
+    "choice3": "Undefined",
+    "choice4": "Character",
+    "answer": 3
+  },
+  {
+    "question": "Which CSS property changes text color?",
+    "choice1": "background-color",
+    "choice2": "text-color",
+    "choice3": "font-color",
+    "choice4": "color",
+    "answer": 4
+  },
+  {
+    "question": "Which HTML attribute is used for styling?",
+    "choice1": "style",
+    "choice2": "design",
+    "choice3": "class",
+    "choice4": "font",
+    "answer": 1
+  },
+  {
+    "question": "Which of these is used for version control?",
+    "choice1": "Node.js",
+    "choice2": "Git",
+    "choice3": "Apache",
+    "choice4": "Docker",
+    "answer": 2
+  },
+  {
+    "question": "Which CSS property controls font size?",
+    "choice1": "font-size",
+    "choice2": "text-size",
+    "choice3": "size",
+    "choice4": "font-style",
+    "answer": 1
+  },
+  {
+    "question": "Which company developed JavaScript?",
+    "choice1": "Microsoft",
+    "choice2": "Netscape",
+    "choice3": "Google",
+    "choice4": "Oracle",
+    "answer": 2
+  },
+  {
+    "question": "Which HTML tag is used for the largest heading?",
+    "choice1": "<h1>",
+    "choice2": "<heading>",
+    "choice3": "<h6>",
+    "choice4": "<head>",
+    "answer": 1
+  },
+  {
+    "question": "Which symbol is used for comments in JavaScript?",
+    "choice1": "//",
+    "choice2": "##",
+    "choice3": "--",
+    "choice4": "/* */",
+    "answer": 1
+  },
+  {
+    "question": "Which CSS property makes text bold?",
+    "choice1": "font-weight",
+    "choice2": "text-bold",
+    "choice3": "font-style",
+    "choice4": "bold",
+    "answer": 1
+  },
+  {
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "choice1": "<link>",
+    "choice2": "<a>",
+    "choice3": "<href>",
+    "choice4": "<hyper>",
+    "answer": 2
+  },
+  {
+    "question": "Which JavaScript method is used to print to the console?",
+    "choice1": "print()",
+    "choice2": "console.log()",
+    "choice3": "log.console()",
+    "choice4": "write()",
+    "answer": 2
+  },
+  {
+    "question": "Which CSS property is used to set background color?",
+    "choice1": "bg-color",
+    "choice2": "background-color",
+    "choice3": "color-background",
+    "choice4": "background",
+    "answer": 2
+  },
+  {
+    "question": "Which HTML tag is used for an unordered list?",
+    "choice1": "<ul>",
+    "choice2": "<ol>",
+    "choice3": "<li>",
+    "choice4": "<list>",
+    "answer": 1
+  },
+  {
+    "question": "Which JavaScript keyword declares a variable?",
+    "choice1": "var",
+    "choice2": "let",
+    "choice3": "const",
+    "choice4": "All of the above",
+    "answer": 4
+  },
+  {
+    "question": "Which CSS property is used to center text?",
+    "choice1": "text-align",
+    "choice2": "align-text",
+    "choice3": "center-text",
+    "choice4": "font-align",
+    "answer": 1
+  }
+]

@@ -1,0 +1,83 @@
+/* General layout */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f2f2f2;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+/* HUD */
+#hud {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#hud-item {
+  text-align: center;
+}
+
+.hud-prefix {
+  font-size: 18px;
+  color: #666;
+}
+
+.hud-main-text {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* Question */
+#question {
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+/* Choices */
+.choice-container {
+  display: flex;
+  background: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  border: 1px solid #ddd;
+}
+
+.choice-container:hover {
+  transform: scale(1.02);
+  border-color: #999;
+}
+
+.choice-prefix {
+  padding: 20px;
+  background: #4CAF50;
+  color: #fff;
+  font-weight: bold;
+  width: 50px;
+  border-radius: 5px 0 0 5px;
+  text-align: center;
+}
+
+.choice-text {
+  padding: 20px;
+  flex: 1;
+}
+
+/* Correct / incorrect colors */
+.correct {
+  background: #4caf50;
+  color: #fff;
+}
+
+.incorrect {
+  background: #e74c3c;
+  color: #fff;
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "choice1": "Hyper Trainer Marking Language",
+    "choice2": "Hyper Text Markup Language",
+    "choice3": "Hyper Text Markdown Language",
+    "choice4": "None of the above",
+    "answer": 2
+  },
+  {
+    "question": "Which language runs in a web browser?",
+    "choice1": "Java",
+    "choice2": "C",
+    "choice3": "Python",
+    "choice4": "JavaScript",
+    "answer": 4
+  },
+  {
+    "question": "What does CSS stand for?",
+    "choice1": "Cascading Style Sheets",
+    "choice2": "Central Style Syntax",
+    "choice3": "Control Styling Software",
+    "choice4": "None",
+    "answer": 1
+  },{
+    "question": "Which HTML tag is used to link JavaScript?",
+    "choice1": "<javascript>",
+    "choice2": "<script>",
+    "choice3": "<js>",
+    "choice4": "<code>",
+    "answer": 2
+  },
+  {
+    "question": "Which of these is a JavaScript data type?",
+    "choice1": "Float",
+    "choice2": "Integer",
+    "choice3": "Undefined",
+    "choice4": "Character",
+    "answer": 3
+  }
+]
