@@ -32,8 +32,10 @@
 
 .text {
     color: white;
-    font-style: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* size: 500px; */
+    text-decoration: wavy;
+    /* font-style: bold; */
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     margin-bottom: 20px;
     font-size: 28px;
 }
