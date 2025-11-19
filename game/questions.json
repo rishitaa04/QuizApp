@@ -22,7 +22,8 @@
     "choice3": "Control Styling Software",
     "choice4": "None",
     "answer": 1
-  },{
+  },
+  {
     "question": "Which HTML tag is used to link JavaScript?",
     "choice1": "<javascript>",
     "choice2": "<script>",

@@ -1,11 +1,13 @@
 const username = document.getElementById("username");
 const saveScoreBtn = document.getElementById("saveScoreBtn");
 const finalScore = document.getElementById("finalScore");
+const scoreList = document.getElementById("scoreList");
+const highestScoreText = document.getElementById("highestScore");
 
-// Retrieve the score stored in localStorage by game.js
+// Retrieve score sent from game.js
 const mostRecentScore = localStorage.getItem("mostRecentScore");
 
-// Display score
+// Display latest score
 finalScore.innerText = mostRecentScore;
 
 // Enable save button only when username is typed
@@ -13,28 +15,50 @@ username.addEventListener("keyup", () => {
     saveScoreBtn.disabled = !username.value;
 });
 
-// Save Score Function
+// Load scores on page load
+function loadScores() {
+    const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
+
+    // Show highest score
+    if (highScores.length > 0) {
+        const highest = Math.max(...highScores.map(s => s.score));
+        highestScoreText.innerText = highest;
+    } else {
+        highestScoreText.innerText = "No scores yet";
+    }
+
+    // Show list of scores
+    scoreList.innerHTML = highScores
+        .map(score => `<li>${score.name} - ${score.score}</li>`)
+        .join("");
+}
+
+loadScores();
+
+// Save Score
 saveScoreBtn.addEventListener("click", () => {
     const scoreEntry = {
         name: username.value,
         score: mostRecentScore
     };
 
-    // Read existing scores OR create empty list
     const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
     // Add new score
     highScores.push(scoreEntry);
 
-    // Sort scores (high to low)
+    // Sort high → low
     highScores.sort((a, b) => b.score - a.score);
 
-    // Keep only top 10
+    // Keep top 10
     highScores.splice(10);
 
-    // Save back to localStorage
+    // Save back
     localStorage.setItem("highScores", JSON.stringify(highScores));
 
-    // Redirect back to game or home
-    window.location.assign("../Home.html");
+    username.value = "";
+    saveScoreBtn.disabled = true;
+
+    // Refresh the list
+    loadScores();
 });
