@@ -1,0 +1,48 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:teal;
+}
+
+.main{
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    justify-content: center;
+    align-items: center;
+    color: white;
+} */
+ body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: teal;
+}
+
+.main {
+    height: 100vh;              /*Full screen height*/
+    display: flex;              /*Enable flexbox*/
+    flex-direction: column;   /*  Stack elements vertically*/
+    justify-content: center;    /* Center vertically */
+    align-items: center;        /* Center horizontally */
+}
+
+.text {
+    color: white;
+    font-style: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.submitBtn{
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 3px;
+    height: 30px;
+    width: 70px;
+}
