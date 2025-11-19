@@ -1,20 +1,3 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color:teal;
-}
-
-.main{
-    justify-content: center;
-    align-items: center;
-}
-
-.text{
-    justify-content: center;
-    align-items: center;
-    color: white;
-} */
  body {
     margin: 0;
     padding: 0;
@@ -39,8 +22,6 @@
     margin-bottom: 20px;
     font-size: 28px;
 }
-
-
 
 /* BUTTONS */
 .btn {
